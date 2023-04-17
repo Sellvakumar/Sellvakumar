@@ -1,0 +1,34 @@
+{
+  "packages": [
+    {
+      "name": "STM32",
+      "maintainer": "Roger Clark",
+      "websiteURL": "https://github.com/rogerclarkmelbourne/Arduino_STM32",
+      "email": "",
+      "help": {
+        "online": "https://github.com/rogerclarkmelbourne/Arduino_STM32/wiki"
+      },
+      "platforms": [
+        {
+          "name": "STM32",
+          "architecture": "stm32",
+          "version": "20211231",
+          "category": "Contributed",
+          "url": "https://github.com/rogerclarkmelbourne/Arduino_STM32/releases/download/20211231/STM32.zip",
+          "archiveFileName": "STM32.zip",
+          "checksum": "SHA-256:7a3520b92d0a356f8b9f9ca0a2396cfe0e877e19daff1bf7dfbc958b2c4207f1",
+          "size": "16008285",
+          "boards": [
+            {
+              "name": "Generic STM32F103C series",
+              "vid": "0x0000",
+              "pid": "0x0000",
+              "menu": "Generic STM32F103C series",
+              "ldscript": "stm32f103c8t6.ld"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
